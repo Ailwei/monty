@@ -19,7 +19,7 @@ void set_queue_mode(stack_t **stack, unsigned int line_cnt)
  * @new_v: New value to add
  * Return: No return value
  */
-void add_Queue(stack_t **stack, int new_v)
+void add_Queue(stack_t **stack, unsigned int new_v)
 {
     stack_t *new_node, *tail;
 

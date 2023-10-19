@@ -43,7 +43,7 @@ int main(int arg_cmd, char *arg_vect[])
 
         if (rd > 0)
         {
-            execute(content, &stack, cnt, file);
+            exec_opcode(content, &stack, cnt, file);
         }
 
         free(content);
